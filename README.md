@@ -43,4 +43,5 @@ For any queries regarding this project, please open an issue in the repository o
 
 ---
 
-*This README is a brief overview of the comprehensive earthquake prediction research documented in the accompanying thesis.*
+*This README offers a concise summary of the sophisticated statistical methods utilized in earthquake frequency prediction research, as outlined in detail within the bachelor's thesis authored by Vincent Li from November 2020 to May 2021. The research included training a zero-inflated and integer-valued GARCH model using an earthquake sequence dataset, employing a Bayesian approach with the MCMC algorithm. *
+
