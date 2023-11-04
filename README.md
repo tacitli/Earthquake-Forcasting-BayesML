@@ -20,8 +20,9 @@ Various orders of ZIP-INGARCH models are fitted to the data, with subsequent one
 
 ## Repository Contents
 
-- `MCMC_InGarch_indepenednt_sampling_order(1,1).R`: R script implementing the ZIP-INGARCH model fitting and predictions.
-- `Forcasting_Model_Evaluation.R`: R script for data analysis and visualization of earthquake frequency predictions.
+- `MCMC_InGarch_independent_sampling_order(1,1).R`: This R script meticulously applies the Zero-Inflated Poisson Integer-Valued GARCH (ZIP-INGARCH) model of order (1,1) to earthquake data. It includes MCMC algorithm implementation for parameter estimation, diagnostic checks for convergence, forecasting future earthquake occurrences with point predictions, and evaluating the forecast accuracy against actual data.
+
+- `Forcasting_Model_Evaluation.R`: R script for evaluating earthquake frequency forecasts. It includes data preprocessing, convergence diagnostics, parameter estimation for the ZIP INGARCH(1,1) model, and generating point and interval forecasts using various statistical measures..
 - `/Source Data`: Directory containing the datasets used in the models.
 - `/Forecasting Results`: Directory with the output results and predictions from the models.
 
